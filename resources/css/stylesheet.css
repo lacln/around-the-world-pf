@@ -42,6 +42,14 @@ body {
     margin-left: 5vw;
 }
 
+.titleBeforeSubtitle {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 0;
+}
+
 
 
 .footer {
