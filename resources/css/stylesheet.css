@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: "Inconsolata", serif;
+    /* COMMENT OUT DO BACKGROUND LAST -- REQUIRE DESIGN PATTERN FIRST */
+    /* background-image: url(./resources/images/ocean.png); */
 }
 
 .header {
