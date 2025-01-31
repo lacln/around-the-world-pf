@@ -73,3 +73,18 @@ body {
         }
     }
 }
+
+
+
+/* SOCIAL ONLY */
+.errorPretend {
+    text-align: center;
+}
+
+.dynamicSpacing {
+    height: calc(70vh - 20px - 10%);
+}
+
+.domainDesc {
+    display: none;
+}
