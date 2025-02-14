@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: "Inconsolata", serif;
+    background-color: rgba(170,211,223,255);
     /* COMMENT OUT DO BACKGROUND LAST -- REQUIRE DESIGN PATTERN FIRST */
     /* background-image: url(./resources/images/ocean.png); */
 }
