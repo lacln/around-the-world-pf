@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: "Inconsolata", serif;
-    background-color: rgba(170,211,223,255);
+    /* background-color: rgba(170,211,223,255); */
+    background: linear-gradient(to bottom, #33ccff 0%, #0066ff 50%);
     /* COMMENT OUT DO BACKGROUND LAST -- REQUIRE DESIGN PATTERN FIRST */
     /* background-image: url(./resources/images/ocean.png); */
 }
@@ -10,12 +11,13 @@ body {
     width: 100;
     height: 10%;
     position: relative;
-    margin-left: 50px;
-    margin-top: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
     a {
         text-decoration: none;
         color: black;
     }
+    /* background-color: rgb(156,164,187); */
 }
 
 .linklist {
@@ -43,6 +45,7 @@ body {
 
 .sections {
     margin-left: 5vw;
+    height: min(calc(86vh));
 }
 
 .titleBeforeSubtitle {
