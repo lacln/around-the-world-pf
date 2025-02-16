@@ -45,7 +45,8 @@ body {
 
 .sections {
     margin-left: 5vw;
-    height: min(calc(86vh));
+    /* height: max(86vh, ); */
+    min-height: 86vh;
 }
 
 .titleBeforeSubtitle {
@@ -83,12 +84,13 @@ body {
 /* SOCIAL ONLY */
 .errorPretend {
     text-align: center;
+    height: 87vh;
 }
 
 .dynamicSpacing {
     height: calc(70vh - 20px - 10%);
 }
-
+/* 
 .domainDesc {
     display: none;
-}
+} */

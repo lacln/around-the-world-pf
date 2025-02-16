@@ -17,6 +17,15 @@ function noLocationFound(error) {
 
 //add info about this into the website "Learning to use a computer in kingergarten, we were always told to double click to access websites, so that functionality has made it to today"
 //implement double click functionality -- when expanded, turn link active, otherwise not (so it expands first)
-function expandDomain() {
-    console.log("worked")
+function expandDomain(domain) {
+    // console.log("worked")
+    if(document.getElementById(domain+"_desc").hidden == true) {
+        //expand the function
+        document.getElementById(domain+"_desc").hidden = false
+        document.getElementById(domain).getElementsByTagName("i")[0].className = "fa-solid fa-caret-down"
+    } else {
+        //hide the function
+        document.getElementById(domain+"_desc").hidden = true
+        document.getElementById(domain).getElementsByTagName("i")[0].className = "fa-solid fa-caret-right"
+    }
 }
