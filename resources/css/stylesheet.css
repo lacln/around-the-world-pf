@@ -57,6 +57,18 @@ body {
     margin-top: 0;
 }
 
+.imageCenter {
+    margin: auto;
+    display: block;
+}
+
+.mapSection {
+    background-color: rgba(170,211,223,255);
+}
+.locationinfo {
+    margin-left: 25px;
+}
+
 
 
 .footer {
