@@ -44,14 +44,13 @@ body {
 
 
 .sections {
-    
-    /* height: max(86vh, ); */
     min-height: 86vh;
 }
 
 .textSections {
     margin-left: 5vw;
 }
+
 
 .titleBeforeSubtitle {
     margin-bottom: 0;
@@ -120,3 +119,10 @@ div.mapSection div {
 .domainDesc {
     display: none;
 } */
+
+
+
+/* ABOUT ONLY */
+.domainTitle {
+    cursor: pointer;
+}
