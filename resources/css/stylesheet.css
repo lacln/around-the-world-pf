@@ -44,9 +44,13 @@ body {
 
 
 .sections {
-    margin-left: 5vw;
+    
     /* height: max(86vh, ); */
     min-height: 86vh;
+}
+
+.textSections {
+    margin-left: 5vw;
 }
 
 .titleBeforeSubtitle {
@@ -62,12 +66,22 @@ body {
     display: block;
 }
 
-.mapSection {
+div.mapSection {
     background-color: rgba(170,211,223,255);
+    border-radius: 25px;
+    width: calc(100% - 10vh);
+    margin: auto;
+    overflow: auto;
 }
-.locationinfo {
+
+div.mapSection div {
+    width: 50%;
+    float: left;
+}
+
+/* .locationinfo {
     margin-left: 25px;
-}
+} */
 
 
 
