@@ -42,11 +42,13 @@ function changeHomePageImage(clicked) {
     document.getElementById('Vanuatu').hidden = true;
 
     document.getElementById(clicked).hidden = false;
+    document.getElementById('themap').src = "./resources/images/travels/mapimg/"+clicked+".png";
 }
 
 window.onload = function() {
     if (window.location.hash) {
         document.getElementById(window.location.hash.substring(1)).hidden = false;
+        document.getElementById('themap').src = "./resources/images/travels/mapimg/"+window.location.hash.substring(1)+".png";
     } else {
         document.getElementById('NewSouthWales').hidden = false;
     }
