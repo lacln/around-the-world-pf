@@ -29,3 +29,23 @@ function expandDomain(domain) {
         document.getElementById(domain).getElementsByTagName("i")[0].className = "fa-solid fa-caret-right"
     }
 }
+
+function changeHomePageImage(clicked) {
+    document.getElementById('NewSouthWales').hidden = true;
+    document.getElementById('Queensland').hidden = true;
+    document.getElementById('Victoria').hidden = true;
+    document.getElementById('Tasmania').hidden = true;
+    document.getElementById('NorthNZ').hidden = true;
+    document.getElementById('SouthNZ').hidden = true;
+    document.getElementById('Fiji').hidden = true;
+    document.getElementById('NewCaledonia').hidden = true;
+    document.getElementById('Vanuatu').hidden = true;
+
+    document.getElementById(clicked).hidden = false;
+}
+
+window.onload = function() {
+    if (window.location.hash) {
+        document.getElementById(window.location.hash.substring(1)).hidden = false;
+    }
+}
