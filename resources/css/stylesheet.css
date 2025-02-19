@@ -2,7 +2,8 @@ body {
     margin: 0;
     font-family: "Inconsolata", serif;
     /* background-color: rgba(170,211,223,255); */
-    background: linear-gradient(to bottom, #33ccff 0%, #0066ff 50%);
+    /* background: linear-gradient(to bottom, #33ccff 0%, #0066ff 50%); */
+    background: linear-gradient(to top, #aad3df 82%, #a1abc1 100%);
     /* COMMENT OUT DO BACKGROUND LAST -- REQUIRE DESIGN PATTERN FIRST */
     /* background-image: url(./resources/images/ocean.png); */
 }
@@ -72,6 +73,7 @@ div.mapSection {
     width: calc(100% - 10vh);
     margin: auto;
     overflow: auto;
+    border: 2px dashed black;
 }
 
 div.mapSection div {

@@ -47,5 +47,7 @@ function changeHomePageImage(clicked) {
 window.onload = function() {
     if (window.location.hash) {
         document.getElementById(window.location.hash.substring(1)).hidden = false;
+    } else {
+        document.getElementById('NewSouthWales').hidden = false;
     }
 }
