@@ -44,7 +44,8 @@ body {
 
 
 .sections {
-    min-height: 86vh;
+    min-height: 84vh;
+    margin-bottom: 2vh;
 }
 
 .textSections {
@@ -78,9 +79,9 @@ div.mapSection div {
     float: left;
 }
 
-/* .locationinfo {
-    margin-left: 25px;
-} */
+.locationinfo {
+    margin-top: 25px;
+}
 
 
 
